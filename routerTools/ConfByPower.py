@@ -10,7 +10,14 @@ def ConfByPower():
     f = open("host.txt")
     un = raw_input("Enter Username: ")
     pwd = getpass.getpass("Enter Password: ")
-    power = raw_input("Input the power: ")
+    ok = False
+    while not ok:
+        power = raw_input("Enter Power value:")
+        try:
+            power = float(power)
+            ok = True
+        except ValueError:
+            print('Input value is not correct !')
     switches = f.readlines()
     for line in switches:
         CallRouter(line.strip(), un, pwd, power)
@@ -27,7 +34,8 @@ def CallRouter(ipAddress, username, password, power):
     if len(result) > 0:
         print 'Found **', len(result), '** interfaces'
         ApplyConf(myClient, result)
-
+    else:
+        print "No matched Device !"
     '''
     input = raw_input("Would you like to configure, press[Y/y] ")
     if(input.lower()== "y"):

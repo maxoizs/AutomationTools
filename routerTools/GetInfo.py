@@ -48,5 +48,5 @@ def ApplyConf(client):
     configurations = file.readlines()
     common.Print("Getting Information from Device")
     common.SendCommands(client, configurations)
-    common.Loading(5, '', True)
+    common.Loading(7, '', True)
     return client.recv(100000)

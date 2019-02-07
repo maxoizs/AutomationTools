@@ -14,15 +14,16 @@ def MainMenu():
     print "\n"
     print ('     2. Apply Configuration on Switch Port by condition')
     print "\n"
-    print ('     3. Getting Infromation from Device')
+    print ('     3. Getting running configuration from Device')
     print "\n"
     print ('     0. Exit')
     print "\n"
 
     print '\n\n'
 
-    Achoice = int(input("Enter your choice:"))
-    if Achoice == 1:
+    Achoice=int(input("Enter your choice:"))
+    if Achoice==1:
+        print '\n\n'
         routerTools.ApplyConf.StartConf()
     if Achoice == 2:
         routerTools.common.SubIntroduction()

@@ -16,16 +16,16 @@ def clear_screen():
 def MainIntroduction():
     clear_screen()
     print '\n\n'
-    print '\t#############################################################'
-    print '\t#                                                           #'
-    print '\t#                                                           #'
-    print '\t#         	      Cisco Automated tool                  #'
-    print '\t#                                                           #'
-    print '\t#                      Beta Verion                          #'
-    print '\t#                      Developed by Mohammed Mahmoud        #'
-    print '\t#                                                           #'
-    print '\t#                                                           #'
-    print '\t#############################################################'
+    print '\t*************************************************************'
+    print '\t*                                                           *'
+    print '\t*                                                           *'
+    print '\t*         	    Cisco Automated tool                    *'
+    print '\t*                                                           *'
+    print '\t*                                                           *'
+    print '\t*                             Developed by Mohammed Mahmoud *'
+    print '\t*                                                   ver 1.0 *'
+    print '\t*                                                           *'
+    print '\t*************************************************************'
     print '\n\n\tPlease Press Enter to start\n\n'
     raw_input('\n\n >> ')
 
@@ -33,16 +33,16 @@ def MainIntroduction():
 def SubIntroduction():
     clear_screen()
     print '\n\n'
-    print '\t#############################################################'
-    print '\t#                                                           #'
-    print '\t#                                                           #'
-    print '\t#         	      Cisco Automated tool                  #'
-    print '\t#                                                           #'
-    print '\t#                      Beta Verion                          #'
-    print '\t#                      Developed by Mohammed Mahmoud        #'
-    print '\t#                                                           #'
-    print '\t#                                                           #'
-    print '\t#############################################################'
+    print '\t*************************************************************'
+    print '\t*                                                           *'
+    print '\t*                                                           *'
+    print '\t*         	    Cisco Automated tool                    *'
+    print '\t*                                                           *'
+    print '\t*                                                           *'
+    print '\t*                             Developed by Mohammed Mahmoud *'
+    print '\t*                                                   ver 1.0 *'
+    print '\t*                                                           *'
+    print '\t*************************************************************'
 
 
 # Establishing Connection

@@ -9,4 +9,6 @@ show cdp ne detail
 show lld neighbor 
 show lld ne de
 show vlan brief
+show power inline
 show etherchannel summary
+show switch
